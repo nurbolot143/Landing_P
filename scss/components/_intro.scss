@@ -1,0 +1,35 @@
+@import "../vars";
+
+.intro {
+  text-align: center;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #0e0e0e 95.15%),
+    url("../../images/intro-bg.png") no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+  padding-bottom: 820px;
+
+  &__title {
+    padding: 95px 200px 10px 200px;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 88px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: $light;
+  }
+
+  &__text {
+    margin-bottom: 60px;
+    padding: 0 230px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: $light;
+  }
+
+  &__btn {
+    margin: 15px;
+  }
+}

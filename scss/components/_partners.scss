@@ -1,0 +1,18 @@
+@import "../vars";
+
+.partners {
+  margin: 100px 0;
+  text-align: center;
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+  }
+
+  &__item + &__item {
+    margin-left: 74px;
+  }
+}
