@@ -1,0 +1,60 @@
+@import "../vars";
+
+.promo {
+  padding: 180px 0;
+
+  &__wrapper {
+    background-color: #343434;
+    border-radius: 33px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  &__right {
+    padding: 60px 0 60px 80px;
+    width: 540px;
+
+    & h2 {
+      margin: 0;
+      padding: 0;
+      margin-bottom: 30px;
+    }
+
+    & a:hover {
+      border: 1px solid #343434;
+    }
+  }
+
+  &__link {
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+    &-img {
+      max-width: 525px;
+      margin: 0;
+      border-radius: 33px;
+      transition: 0.5s;
+    }
+
+    & span {
+      visibility: hidden;
+      position: absolute;
+      top: 40%;
+      left: 38%;
+      font-weight: 500;
+      font-size: 50px;
+      color: $light;
+    }
+
+    &:hover &-img {
+      opacity: 0.22;
+    }
+
+    &:hover span {
+      visibility: visible;
+    }
+  }
+}

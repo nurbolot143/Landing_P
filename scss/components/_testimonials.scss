@@ -1,0 +1,55 @@
+@import "../vars";
+
+.testimonials {
+  text-align: center;
+
+  &__wrapper {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    width: 430px;
+    margin: 10px;
+    padding: 40px;
+    text-align: left;
+    border: 1px solid $light;
+    border-radius: 10px;
+  }
+
+  &__auth {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    &-img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    &-name {
+      margin-left: 23px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      color: $light;
+    }
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: $light;
+  }
+}
