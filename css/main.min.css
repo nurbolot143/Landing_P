@@ -171,10 +171,10 @@ a {
 
 .intro {
   text-align: center;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(95.15%, #0e0e0e)), url("../../images/intro-bg.png") no-repeat;
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #0e0e0e 95.15%), url("../../images/intro-bg.png") no-repeat;
-  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #0e0e0e 95.15%), url("../../images/intro-bg.png") no-repeat;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #0e0e0e 95.15%), url("../../images/intro-bg.png") no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(95.15%, #0e0e0e)), url("../images/intro-bg.png") no-repeat;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #0e0e0e 95.15%), url("../images/intro-bg.png") no-repeat;
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #0e0e0e 95.15%), url("../images/intro-bg.png") no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #0e0e0e 95.15%), url("../images/intro-bg.png") no-repeat;
   -webkit-background-size: contain;
           background-size: contain;
   background-position: center bottom;
